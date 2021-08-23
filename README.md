@@ -6,7 +6,7 @@ To tackle such analytical challenges we have come up with an algorithm to adjust
 Copy priorityx.py to your working directory
 
 ```
-from priorityy import priority_based_linkage
+from priorityY import priority_based_linkage
 G = [(1,4,1),(1,5,3),(2,3,2),(2,6,2),(6,7,3),(4,8,2),(5,9,1)]
 threshold = 3
 components = priority_based_linkage(G,threshold)
